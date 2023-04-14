@@ -1,19 +1,16 @@
 body {
-    text-align: right;
+    text-align: left;
     background-color: rgb(	13	13	63);
-    margin: 2px 0 0 0;
+    margin: 15px 0 0 0;
     color: #ff8888;
     font-family: 'kanit';
-    overflow: auto;
 }
 ul {
-  padding: bottom 500px;
-  position: absolute;
-  right: 30px;
-  text-align: right;
+  
   list-style-type: none;
-  margin: 2;
+  margin: 20;
   padding: 0;
+  overflow: hidden;
   background-color: #0d0d3f;
 }
 
@@ -22,13 +19,11 @@ li {
 }
 
 li a {
-  position: relative;
-  bottom: 290px;
+  
   display: block;
   color: #b0b8d1;
   text-align: center;
-  word-spacing: 10%;
-  padding: 05px 05px;
+  padding: 14px 16px;
   text-decoration: none;
 }
 
@@ -36,10 +31,9 @@ li a:hover {
   background-color: #090930;
 }
 #searchbar{
-  position: relative;
-  bottom: 180px;
+    
     background-color: rgb(176, 184, 209);
-    margin-left: 25%;
+    margin-left: 15%;
     padding:15px;
     border-radius: 10px;
   }
@@ -54,7 +48,7 @@ li a:hover {
   /* When the input field gets focus,
        change its width to 100% */
   input[type=text]:focus {
-    width: 40%;
+    width: 70%;
   }
 
  #list{
@@ -68,13 +62,12 @@ li a:hover {
 .topo  {
     text-align: left;
     text-transform: capitalize;
-    padding: 3px;
+    padding: 32px;
     background-color: #0d0d3f;
     color: #8fa8f2;
-    border-bottom: 5px solid #c91616;
+    
     border-radius: 10px;
     flex-direction: row;
-    
   }
 .logo {
     width: 50px;
