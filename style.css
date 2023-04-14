@@ -1,6 +1,6 @@
 body {
     text-align: right;
-    background-color: rgb(	13	13	63);
+    background-image: url("img/raios.jpg");
     margin: 2px 0 0 0;
     color: #ff8888;
     font-family: 'kanit';
@@ -14,7 +14,7 @@ ul {
   list-style-type: none;
   margin: 2;
   padding: 0;
-  background-color: #0d0d3f;
+  
 }
 
 li {
@@ -69,7 +69,6 @@ li a:hover {
     text-align: left;
     text-transform: capitalize;
     padding: 3px;
-    background-color: #0d0d3f;
     color: #8fa8f2;
     border-bottom: 5px solid #c91616;
     border-radius: 10px;
