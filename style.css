@@ -88,7 +88,9 @@ li a:hover {
     height: 500px;
     object-fit: fill;
     border-radius: 10px;
+   
 }
+
 .catalogo {
     display: flex;
     flex-direction: row;
@@ -100,3 +102,21 @@ li a:hover {
     margin: 0 auto;
     padding: 20px 10px;
  }
+ .cat img {
+  width: 100%;
+  max-width: 350px;
+  height: 500px;
+  object-fit: fill;
+  border-radius: 10px;
+}
+.cat {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
