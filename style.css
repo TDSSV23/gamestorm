@@ -69,7 +69,7 @@ li a:hover {
     text-align: left;
     text-transform: capitalize;
     padding: 100px;
-    color: #8fa8f2;
+    color: #7fa8f2;
     border-bottom: 5px solid #c91616;
     border-radius: 10px;
     flex-direction: row;
@@ -100,13 +100,16 @@ li a:hover {
     padding: 20px 10px;
  }
  .cat img {
+  left: 90px;
+	top: 70px;
   width: 100%;
   max-width: 350px;
   height: 500px;
   object-fit: fill;
   border-radius: 10px;
+  
 }
-.cat {
+.cat a:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -116,4 +119,5 @@ li a:hover {
   max-width: 1400px;
   margin: 0 auto;
   padding: 20px 10px;
+  background-color: #090930;
 }
