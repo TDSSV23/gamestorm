@@ -170,13 +170,10 @@ li a:hover {
    font-size:  1.5em;
    margin-left: 90px;
   }
-
-.animals{
-  display: list-item;    
- } 
 .topo  {
     text-align: left;
     text-transform: capitalize;
+    vertical-align: text-top;
     padding: 32px;
     /*background-color: #0d0d3f;*/
     color: #8fa8f2;

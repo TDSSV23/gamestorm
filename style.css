@@ -1,11 +1,12 @@
 body {
-    text-align: right;
-    background-image: url("img/FUNDO.jpg");
-    margin: 2px 0 0 0;
-    color: #ff8888;
-    font-family: 'kanit';
-    overflow: auto;
+  /* text-align: right; */
+  background-image: url("img/FUNDO.jpg");
+  margin: 2px 0 0 0;
+  color: #ff8888;
+  font-family: 'kanit';
+  overflow: auto;
 }
+
 ul {
   padding: bottom 500px;
   position: absolute;
@@ -14,7 +15,7 @@ ul {
   list-style-type: none;
   margin: 2;
   padding: 0;
-  
+
 }
 
 li {
@@ -35,65 +36,154 @@ li a {
 li a:hover {
   background-color: #090930;
 }
-#searchbar{
+
+#searchbar {
   position: relative;
   bottom: 180px;
+<<<<<<< Updated upstream
+  background-color: rgb(176, 184, 209);
+  margin-left: 25%;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+input[type=text] {
+  width: 30%;
+  -webkit-transition: width 0.15s ease-in-out;
+  transition: width 0.15s ease-in-out;
+}
+=======
     background-color: rgb(176, 184, 209);
     margin-left: 25%;
     padding:15px;
     border-radius: 10px;
   }
   
-
   input[type=text] {
      width: 30%;
      -webkit-transition: width 0.15s ease-in-out;
      transition: width 0.15s ease-in-out;
   }
+>>>>>>> Stashed changes
 
-  /* When the input field gets focus,
+/* When the input field gets focus,
        change its width to 100% */
-  input[type=text]:focus {
-    width: 40%;
-  }
+input[type=text]:focus {
+  width: 40%;
+}
 
- #list{
-   font-size:  1.5em;
-   margin-left: 90px;
-  }
+#list {
+  font-size: 1.5em;
+  margin-left: 90px;
+}
 
-.animals{
-  display: list-item;    
- } 
-.topo  {
-    text-align: left;
-    text-transform: capitalize;
-    padding: 100px;
-    color: #8fa8f2;
-    border-bottom: 5px solid #c91616;
-    border-radius: 10px;
-    flex-direction: row;
-    
-  }
+.animals {
+  display: list-item;
+}
+
+.topo {
+  text-align: left;
+  text-transform: capitalize;
+  padding: 100px;
+  color: #7fa8f2;
+  border-bottom: 5px solid #c91616;
+  border-radius: 10px;
+  flex-direction: row;
+
+}
+
 .logo {
-    width: 50px;
-    height: auto;
+  width: 50px;
+  height: auto;
 }
+
+<<<<<<< Updated upstream
 .catalogo img {
-    width: 100%;
-    max-width: 350px;
-    height: 500px;
-    object-fit: fill;
-    border-radius: 10px;
+  width: 100%;
+  max-width: 350px;
+  height: 500px;
+  object-fit: fill;
+  border-radius: 10px;
+
 }
+
 .catalogo {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 20px 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.galeria {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+  
+}
+
+.galeria img {
+  width: 100%;
+  max-width: 300px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 4px 5px #d0cbf5;
+=======
+ .membros {
+  text-align: center;
+  color: #B0B8D1;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
  }
+ .left{
+  color: #B0B8D1;
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 30px;
+  font-size: 2opx;
+ }
+ h4 {
+  text-align: left;
+  color: #B0B8D1;
+  font-size: 30px;
+  margin-left: 150px;
+  margin-top: 50px;
+  font-family: 'Times New Roman', Times, serif;
+ }
+ .centro2{
+  text-align: center;
+  color: #B0B8D1;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 5px;
+  font-size: 20px;
+ }
+ .centro{
+  text-align: center;
+  color: #B0B8D1;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 5px;
+ }
+ .maria{
+  float: right;
+  color: #B0B8D1;
+  margin-right: 50px;
+  text-align: center;
+}
+.mm{
+  float: right;
+  color: #B0B8D1;
+  margin-right: 50px;
+  text-align: center;
+>>>>>>> Stashed changes
+}
