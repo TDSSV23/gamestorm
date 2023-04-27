@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Times New Roman', Times, serif;
-  background-color: #5b5b5b;
+  background-color: #0d0d1f;
   font-size: 20px;
 }
 
@@ -51,13 +51,14 @@ section {
 .banner h1 {
   white-space: nowrap;
   margin: 0 0 4px;
-  font-size: 40px;
-  color: rgb(255 255 255 / 96%);
+  font-size: 60px;
+  color: #8fa8f2;
 }
 
 .banner h2 {
   font-weight: 300;
   margin: 0;
+  text-align: center;
   color: rgb(255 255 255 / 57%);
   font-style: italic;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -81,4 +82,13 @@ section {
   height: 220px;
   object-fit: cover;
   animation: morph 3.5s linear infinite;
+}
+p{
+  color: #B0B8D1;
+  font-size: 30px;
+}
+.titulo{
+  font-size: 60px;
+  color: #8fa8f2;
+  text-align: center;
 }
