@@ -40,6 +40,7 @@ li a:hover {
 #searchbar {
   position: relative;
   bottom: 180px;
+<<<<<<< Updated upstream
   background-color: rgb(176, 184, 209);
   margin-left: 25%;
   padding: 15px;
@@ -51,6 +52,19 @@ input[type=text] {
   -webkit-transition: width 0.15s ease-in-out;
   transition: width 0.15s ease-in-out;
 }
+=======
+    background-color: rgb(176, 184, 209);
+    margin-left: 25%;
+    padding:15px;
+    border-radius: 10px;
+  }
+  
+  input[type=text] {
+     width: 30%;
+     -webkit-transition: width 0.15s ease-in-out;
+     transition: width 0.15s ease-in-out;
+  }
+>>>>>>> Stashed changes
 
 /* When the input field gets focus,
        change its width to 100% */
@@ -86,6 +100,7 @@ input[type=text]:focus {
   height: auto;
 }
 
+<<<<<<< Updated upstream
 .catalogo img {
   width: 100%;
   max-width: 350px;
@@ -127,4 +142,55 @@ input[type=text]:focus {
   object-fit: cover;
   border-radius: 10px;
   box-shadow: 4px 5px #d0cbf5;
+<<<<<<< HEAD
 }
+=======
+=======
+ .membros {
+  text-align: center;
+  color: #B0B8D1;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+ }
+ .left{
+  color: #B0B8D1;
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 30px;
+  font-size: 2opx;
+ }
+ h4 {
+  text-align: left;
+  color: #B0B8D1;
+  font-size: 30px;
+  margin-left: 150px;
+  margin-top: 50px;
+  font-family: 'Times New Roman', Times, serif;
+ }
+ .centro2{
+  text-align: center;
+  color: #B0B8D1;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 5px;
+  font-size: 20px;
+ }
+ .centro{
+  text-align: center;
+  color: #B0B8D1;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 5px;
+ }
+ .maria{
+  float: right;
+  color: #B0B8D1;
+  margin-right: 50px;
+  text-align: center;
+}
+.mm{
+  float: right;
+  color: #B0B8D1;
+  margin-right: 50px;
+  text-align: center;
+>>>>>>> Stashed changes
+}
+>>>>>>> edbd00630760d00a01749449cd23124342c3cc39
