@@ -19,8 +19,8 @@
     place-items: center;
     margin: 0;
     padding: 0 24px;
-    background-image: url("background.svg");
-    background-repeat: no-repeat;
+    background-image: url("img/FUNDO.jpg");
+   
     background-size: cover;
     font-family: "Euclid Circular A";
     color: #fff;
@@ -131,7 +131,7 @@
   
   li {
     float: left;
-    
+    color: #8fa8f2;
   }
   
   li a {
@@ -242,4 +242,17 @@
     letter-spacing: 2px;
     transition: all 0.375s;
   }
-  
+  .contato{
+    color: #0d0d3f;
+    background-color: #8fa8f2;
+    border-radius: 10px;
+  }
+  .botao{
+    background-color: #8fa8f2;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #0d0d3f;
+    margin-left: 100px;
+    padding: 2px 8px;
+    border-color: #8fa8f2;
+  }

@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
  }
- 
+ body{
+  background-image: url(img/FUNDO.jpg);
+ }
  nav {
      background-color: #0d0d3f;
      color: #8fa8f2;
@@ -38,7 +40,7 @@
    img{
      width: 50px;
      height: 50px;
-     margin-right: 1050px ;
+     margin-right: 380px ;
    }
    body{
      background-color: #0d0d1f ;
@@ -46,25 +48,9 @@
    p{
      vertical-align: text-bottom;
      color: #B0B8D1;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    }
-   .footer1 {
-     position: fixed;
-     left: 680px;
-     bottom: 10px;
-     width: 50px;
-     background-color: 0d0d3f;
-     color: #8fa8f2;
-     text-align: center;
-   }
-   .footer2 {
-     position: absolute;
-     left: 780px;
-     bottom: 10px;
-     width: 50px;
-     background-color: 0d0d3f;
-     color: #8fa8f2;
-     text-align: center;
-   }
+   
    .imagem{
      float: left;
      text-align: center;
@@ -87,28 +73,29 @@
      width: 200px;
      height: 200px;
      position: relative;
-     margin-left: 300px;
-     margin-top: 200px;
+     margin-left: 200px;
+     margin-top: 100px;
      
    }
    
    .overlay {
      position: absolute;
-     bottom: 50%;
-     left: 0;
-     right: 0;
+     bottom: 30%;
+     left: 75;
+     right: 50;
      background-color: #0d0d3f;
      overflow: hidden;
      width: 200px;
      height:0 ;
-     transition: .5s ease;
-     margin-left: 300px;
+     transition: .3s ease;
+     margin-left: 200px;
      margin-top: 200px;
+    
    }
    
    .container:hover .overlay {
      bottom: 0;
-     margin-left: 300px;
+     margin-left: 200px;
      margin-top: 200px;
      width: 200px;
      height: 200px;
@@ -141,9 +128,124 @@
     text-align: left;
     font-size: 20px;
    }
-   
-   
-   
+   header nav .search_box {
+    display: flex;
+    margin: auto 0;
+    height: 35px;
+    line-height: 35px;
+    
+}
+header nav .search_box input {
+    border-radius: 30px;
+    outline: none;
+    background: #0d0d1f;
+    height: 100%;
+    padding: 0 10px;
+    font-size: 10px;
+    width: 350px;
+    border-color: #0d0d2f;
+   font-family: system-ui, ;
+   color: #8fa8f2;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  
+  color: #8fa8f2;
+  width: 1263px;
+  height: 100px;    
+  text-align: center;
+  line-height: 90px;
+  
+}
+.twt {
+  text-align: center;
+  word-spacing: 80px;
+  color: #8fa8f2;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+.lotw{
+  align-items: center ;
+  margin-top: 30px;
+  margin-left: 0 ;
+  margin-bottom: 0%;
+  margin-right: 0%;
+  padding: 0;
+  border: 0;
+}
+
+.row {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.column {
+  padding: 10px;
+  height: 300px;
+}
+
+
+.column.side {
+   -webkit-flex: 2;
+   -ms-flex: 2;
+   flex: 2;
+   height: 420px;
+   margin-top: 30px;
+}
+
+
+.column.middle {
+  -webkit-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+  height: 420px;
+  margin-top: 30px;
+  
+}
+.tit{
+  text-align: right;
+  
+  color: #5050ca;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 10px;
+  font-size: 30px;
+  text-shadow: 1px 1px 2px black, 0 0 25px #8fa8f2, 0 0 5px darkblue;
+}
+
+.tit2{
+  text-align: left;
+  
+  color: #5050ca;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 10px;
+  font-size: 30px;
+  text-shadow: 1px 1px 2px black, 0 0 35px #8fa8f2, 0 0 5px darkblue;
+}
+.capa{
+  width: 100%;
+  height: 300px;
+  margin: auto;
+  display: block;
+  border-radius: 10px;
+  
+}
+.desc{
+  color: #B0B8D1;
+  font-size: 20px;
+}
+.botao{
+  background-color: #8fa8f2;
+  font-size: 20px;
+  border-radius: 5px;
+  color: #0d0d3f;
+  margin-left: 180px;
+  padding: 12px 28px;
+  border-color: #8fa8f2;
+}
+    
+
+
   
   
   
