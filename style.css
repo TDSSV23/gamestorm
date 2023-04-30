@@ -536,3 +536,17 @@ background-color: rgba(176, 184, 209, 0);
     margin-top: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
+  .recente{
+    color: #B0B8D1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 60px;
+    
+    margin-bottom: 10px;
+  }
+  .hr2{
+    width: 300px;
+    height: 3px;
+    background-color: #8fa8f2;
+    border-color: #7a00ff;
+    border-radius: 20px;
+  }
