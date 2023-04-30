@@ -213,6 +213,14 @@ background-color: rgba(176, 184, 209, 0);
   color: #B0B8D1;
   font-size: 16px;
 }
+.desc3{
+  color: #B0B8D1;
+  font-size: 19px;
+}
+.desc4{
+  color: #B0B8D1;
+  font-size: 17px;
+}
 .botao {
   padding: 0.9em 2.2em;
   border: none;
@@ -398,4 +406,133 @@ background-color: rgba(176, 184, 209, 0);
     background-color: #8fa8f2;
     border-color: #7a00ff;
     border-radius: 20px;
+  }
+  .coluna {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 0.3;
+    height: 200px;
+  margin-left: 30px;
+  margin-top: 20px;
+  background-color: rgba(176, 184, 209, 0);
+   }
+   .esquerda {
+     text-align: center;
+    
+   }
+   .meio {
+    text-align: center;
+    margin-top: 90px;
+    margin-left: 70px;
+   }
+   .direita {
+    text-align: center;
+    margin-left: 80px;
+   }
+   .funcao{
+    text-align: center;
+    color: #B0B8D1;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+   }
+   .detalhe{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #B0B8D1;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+   }
+   .nossa{
+    margin-top:10px;
+   }
+   .logo{
+    width: 250px;
+    height: 250px;
+   align-items: center;
+   margin-left: 86px;
+   }
+   .detalhe2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #B0B8D1;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 70px;
+   }
+   .funcao2{
+    text-align: center;
+    color: #B0B8D1;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    margin-left: 70px;
+   }
+   .detalhe3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #B0B8D1;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 100px;
+   }
+   .funcao3{
+    text-align: center;
+    color: #B0B8D1;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    margin-left: 100px;
+   }
+   .colunaperfil {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 0.01;
+    height: 200px;
+  color: rgba(13, 13, 63, 0);
+  text-align: right;
+  margin-top: 20px;
+  background-color: rgba(176, 184, 209, 0);
+   }
+   .lgperfil{
+    width: 250px;
+    height: 250px;
+   align-items: center;
+   margin-left: 86px;
+   border-radius: 230px;
+   }
+   .nome{
+    text-align: center;
+    
+    margin-left: 70px;
+   }
+   .user{
+    color: #48ff00;
+    margin-left: 300px;
+   }
+   .nuser {
+    text-align: left;
+    
+   }
+   .email{
+    text-align: left;
+    color: #B0B8D1;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    margin-left: 100px;
+   }
+   .editar {
+    position: relative;
+    background: #0d0d5f;
+    color: #0d0d2f;
+    text-transform: uppercase;
+    border: #8fa8f2 2px;
+    letter-spacing: 0.1rem;
+    font-size: 15px;
+    padding: 0.5rem 1.0rem;
+    transition: 0.2s;
+    margin-left: 130px;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
