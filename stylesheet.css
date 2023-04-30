@@ -318,3 +318,9 @@
   .name{
      width: 100%;
   }
+  hr{
+    background-color: #8fa8f2;
+    height: 3px;
+    border-color: #8fa8f2;
+    border-radius: 5px;
+  }
