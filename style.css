@@ -14,6 +14,7 @@
      display: flex;
      justify-content: center;
      align-items: center;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    }
    
    ul {
@@ -32,15 +33,21 @@
      text-decoration: none;
      padding: 10px;
      transition: background-color 0.5s;
+     
    }
+   .clic{
+    color: #0d0d2f;
+    
+   }   
    
    a:hover {
-     background-color: #2b2828;
+     background-color: rgba(143, 168, 242, 0.1);
    }
+   
    img{
      width: 50px;
      height: 50px;
-     margin-right: 380px ;
+     
    }
    body{
      background-color: #0d0d1f ;
@@ -56,69 +63,12 @@
      text-align: center;
    }
    
- 
- 
- 
-   .container {
-     position: relative;
-     width: 50%;
-     margin: 15px;
-     
-     float: left;
-     width: 180px;
-   }
    
-   .image {
-     display: block;
-     width: 200px;
-     height: 200px;
-     position: relative;
-     margin-left: 200px;
-     margin-top: 100px;
-     
-   }
-   
-   .overlay {
-     position: absolute;
-     bottom: 30%;
-     left: 75;
-     right: 50;
-     background-color: #0d0d3f;
-     overflow: hidden;
-     width: 200px;
-     height:0 ;
-     transition: .3s ease;
-     margin-left: 200px;
-     margin-top: 200px;
-    
-   }
-   
-   .container:hover .overlay {
-     bottom: 0;
-     margin-left: 200px;
-     margin-top: 200px;
-     width: 200px;
-     height: 200px;
-     
-   }
-   
-   .text {
-     white-space: nowrap; 
-     color: #8fa8f2;
-     font-size: 20px;
-     position: absolute;
-     overflow: hidden;
-     top: 50%;
-     left: 50%;
-     transform: translate(-60%, -60%);
-     -ms-transform: translate(-50%, -50%);
-     text-align: center;
-     margin-left: 15px;
-   }
    h1{
      color: #8fa8f2;
      text-align: center;
      margin-top: 60px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    }
    .imag{
     float: left;
@@ -134,6 +84,7 @@
     height: 35px;
     line-height: 35px;
     
+    
 }
 header nav .search_box input {
     border-radius: 30px;
@@ -146,6 +97,7 @@ header nav .search_box input {
     border-color: #0d0d2f;
    font-family: system-ui, ;
    color: #8fa8f2;
+  margin-left: 380px;
 }
 footer {
   position: absolute;
@@ -180,13 +132,39 @@ footer {
   display: flex;
 }
 
-.column {
+
+.column1 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 0.22;
+  height: 250px;
+margin-left: 20px;
+margin-top: 20px;
+color: #00ffd5;
+background-color: #535f4e;
+ }
+ .column2 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   padding: 10px;
   height: 300px;
-}
+margin-left: 20px;
+margin-top: 40px;
+ }
+ .column3 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 0.001;
+  height: 200px;
+margin-right: 180px;
+margin-top: 20px;
+background-color: rgba(176, 184, 209, 0);
+ }
 
 
-.column.side {
+
+.columnS {
    -webkit-flex: 2;
    -ms-flex: 2;
    flex: 2;
@@ -203,36 +181,37 @@ footer {
   margin-top: 30px;
   
 }
-.tit{
-  text-align: right;
-  
-  color: #5050ca;
-  font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-  letter-spacing: 10px;
-  font-size: 30px;
-  text-shadow: 1px 1px 2px black, 0 0 25px #8fa8f2, 0 0 5px darkblue;
-}
+
 
 .tit2{
   text-align: left;
-  
+  margin-top: 10px;
   color: #5050ca;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   letter-spacing: 10px;
   font-size: 30px;
   text-shadow: 1px 1px 2px black, 0 0 35px #8fa8f2, 0 0 5px darkblue;
+  text-align: center;
+ margin-left: 40px;
 }
 .capa{
-  width: 100%;
+  width: 500px;
   height: 300px;
-  margin: auto;
+  margin-left:160px;
+  margin-right: 20px;
+  margin-top: 5px;
   display: block;
   border-radius: 10px;
+  float: left;
   
 }
 .desc{
   color: #B0B8D1;
   font-size: 20px;
+}
+.desc2{
+  color: #B0B8D1;
+  font-size: 16px;
 }
 .botao {
   padding: 0.9em 2.2em;
@@ -248,8 +227,9 @@ footer {
   -webkit-user-select: none;
   touch-action: manipulation;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-left: 180px;
+  margin-left: 850px;
   font-size: 15px;
+  margin-top: 15px;
 }
 
 .botao:before {
@@ -303,10 +283,119 @@ footer {
   top: 0;
   border-radius: 10px;
 }
+.sidenav {
+  height:600px;
+  width: 150px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(13, 13, 63, 1);
+  overflow-x: hidden;
+  margin-top: 60px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+
+/* Side navigation links */
+.sidenav a {
+  color: #8fa8f2;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+  background-color: rgba(176, 184, 209, 0.5);
+  color: black;
+}
+
+/* Style the content */
+.content {
+  margin-left: 200px;
+  padding-left: 20px;
+}   
+.categoria{
+  color: #8fa8f2;
+}
+.genero{
+  background-color: #8fa8f2;
+  color: #0d0d1f;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+.genero2{
+  background-color: #0d0d3f;
+  color: #8fa8f2;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+  .farcry{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  .tjogo {
+    background-color: #8fa8f2;
+    color: #0d0d2f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px ;
+    text-align: center;
+    margin: 40px ;
     
-
-
+  }
+  .container {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 0.22;
+    height: 250px;
+  margin-left: 20px;
+  margin-top: 20px;
   
+   }
+   .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position:relative ;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
   
+  .container:hover .farcry {
+    opacity: 0.3;
+  }
   
- 
+  .container:hover .middle {
+    opacity: 1;
+  }
+  .teste{
+    color: #8fa8f2;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+    text-shadow: 1px 1px 2px black, 0 0 25px #8fa8f2, 0 0 5px darkblue;
+  }
+  .mais{
+    color: #B0B8D1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+  }
+  .hr{
+    width: 940px;
+    margin-left: 200px ;
+    height: 3px;
+    background-color: #8fa8f2;
+    border-color: #7a00ff;
+    border-radius: 20px;
+  }
