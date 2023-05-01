@@ -550,3 +550,25 @@ background-color: rgba(176, 184, 209, 0);
     border-color: #7a00ff;
     border-radius: 20px;
   }
+  .copyright{
+    background-color: #0d0d3f;
+    height: 80%;
+    width: 1280px;
+    
+  }
+  .insta{
+    float: left;
+    margin-left: 160px;
+    margin-top: 15px;
+  }
+  .twitter{
+    float: right;
+    margin-top: 15px;
+    margin-right: 80px;
+  }
+  .sobre{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    margin-left: 100px;
+  }
