@@ -572,3 +572,27 @@ background-color: rgba(176, 184, 209, 0);
     font-size: 20px;
     margin-left: 100px;
   }
+  main {
+    text-align: center;
+}
+.tabuleiro div input {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: 1px solid #0d0d3f
+    border-radius: 6px;
+    font-size: 30px;
+    cursor: pointer;
+}
+input {
+    background-color: rgb(218, 233, 255);
+}
+body {
+    background-image: url("img/FUNDO.jpg");
+}
+span{
+ color:#B0B8D1 ;
+}
+section{
+    color:#B0B8D1 ;
+}
