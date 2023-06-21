@@ -297,12 +297,12 @@ background-color: rgba(176, 184, 209, 0);
   position: fixed;
   z-index: 1;
   top: 0;
-  left: 0;
   background-color: rgba(13, 13, 63, 1);
   overflow-x: hidden;
   margin-top: 60px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
+  flex-direction: row;
 }
 
 
