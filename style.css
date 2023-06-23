@@ -352,7 +352,24 @@ footer {
   font-size: 15px;
   margin-top: 30px;
 }
-
+.botao3 {
+  padding: 0.9em 2.2em;
+  border: none;
+  outline: none;
+  color: #8fa8f2;
+  background: #0d0d3f;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 1px;
+  font-size: 15px;
+  margin-top: 20px;
+}
 .botao:before {
   content: "";
   background: linear-gradient(45deg,
@@ -694,7 +711,7 @@ footer {
 .teste {
   color: #8fa8f2;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-  margin-top: 10px;
+  margin-top: 90px;
   text-shadow: 1px 1px 2px black, 0 0 25px #8fa8f2, 0 0 5px darkblue;
 }
 
@@ -987,6 +1004,10 @@ footer {
   }
   main {
     text-align: center;
+}
+.jogo {
+  margin-top: 100px;
+  
 }
 .tabuleiro div input {
     width: 100px;

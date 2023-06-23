@@ -16,3 +16,37 @@ body {
     color: #8fa8f2;
     font-size: 30px;
 }
+header nav .search_box {
+    display: flex;
+    margin: auto 0;
+    height: 35px;
+    line-height: 35px;
+}
+header nav .search_box {
+    display: flex;
+    margin: auto 0;
+    height: 35px;
+    line-height: 35px;
+  
+  
+  }
+  
+  header nav .search_box input {
+    border-radius: 30px;
+    outline: none;
+    background: #0d0d1f;
+    height: 100%;
+    padding: 0 10px;
+    font-size: 10px;
+    width: 350px;
+    border-color: #0d0d2f;
+    font-family: system-ui, ;
+    color: #8fa8f2;
+    margin-left: 380px;
+  }
+  .logo {
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    margin-left: 86px;
+  }
