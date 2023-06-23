@@ -129,3 +129,4 @@ let pontos = 0;
 let pontosPorFase = 2
 let pontosProximaFase = pontosPorFase;
 let fase = 1;
+let fase = 1;
