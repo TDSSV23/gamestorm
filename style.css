@@ -15,6 +15,11 @@
      justify-content: center;
      align-items: center;
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     z-index: 1;
    }
    
    ul {
@@ -235,9 +240,9 @@ background-color: rgba(176, 184, 209, 0);
   -webkit-user-select: none;
   touch-action: manipulation;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-left: 70px;
+  margin-left: 150px;
   font-size: 15px;
-  margin-top: 15px;
+  margin-top: 30px;
 }
 
 .botao:before {
@@ -291,6 +296,143 @@ background-color: rgba(176, 184, 209, 0);
   top: 0;
   border-radius: 10px;
 }
+.botao1 {
+  padding: 0.9em 2.2em;
+  border: none;
+  outline: none;
+  color: #8fa8f2;
+  background: #0d0d3f;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 820px;
+  font-size: 15px;
+  margin-top: 30px;
+}
+.botao1:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-botao 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-botao {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+.botao1:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #0d0d3f;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+  }
+  .botao2 {
+    padding: 0.9em 2.2em;
+    border: none;
+    outline: none;
+    color: #8fa8f2;
+    background: #0d0d3f;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 65px;
+    font-size: 15px;
+    margin-top: 30px;
+  }
+  .botao2:before {
+    content: "";
+    background: linear-gradient(
+      45deg,
+      #ff0000,
+      #ff7300,
+      #fffb00,
+      #48ff00,
+      #00ffd5,
+      #002bff,
+      #7a00ff,
+      #ff00c8,
+      #ff0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing-botao 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  @keyframes glowing-botao {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+  .botao2:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #0d0d3f;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    }
+
 .sidenav {
   height:600px;
   width: 150px;
@@ -389,8 +531,10 @@ background-color: rgba(176, 184, 209, 0);
   .teste{
     color: #8fa8f2;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    margin-top: 10px;
+    margin-top: 80px;
+    margin-left: 10px;
     text-shadow: 1px 1px 2px black, 0 0 25px #8fa8f2, 0 0 5px darkblue;
+    
   }
   .mais{
     color: #B0B8D1;
@@ -413,7 +557,7 @@ background-color: rgba(176, 184, 209, 0);
     flex: 0.3;
     height: 200px;
   margin-left: 30px;
-  margin-top: 20px;
+  margin-top: 70px;
   background-color: rgba(176, 184, 209, 0);
    }
    .esquerda {
@@ -503,7 +647,7 @@ background-color: rgba(176, 184, 209, 0);
    }
    .nome{
     text-align: center;
-    
+    margin-top: 40px;
     margin-left: 70px;
    }
    .user{
@@ -512,6 +656,7 @@ background-color: rgba(176, 184, 209, 0);
    }
    .nuser {
     text-align: left;
+    margin-top: 40px;
     
    }
    .email{
@@ -539,7 +684,7 @@ background-color: rgba(176, 184, 209, 0);
   .recente{
     color: #B0B8D1;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 60px;
+    margin-top: 55px;
     
     margin-bottom: 10px;
   }
@@ -552,8 +697,10 @@ background-color: rgba(176, 184, 209, 0);
   }
   .copyright{
     background-color: #0d0d3f;
-    height: 80%;
+    height: 60%;
     width: 1280px;
+    position: fixed;
+    margin-top: 20px;
     
   }
   .insta{
